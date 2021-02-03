@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="oh_hi_mark">Oh hi mark!</string>
+    <string name="button">Button</string>
+    <string name="ma_button">Ma button</string>
+    <string name="hiiii">Hiiii</string>
+    <string name="Delete">DELETE</string>
+    <string name="Edit">Edit</string>
+    <string name="Add">Add</string>
+    <string name="buttonx">ButtonX</string>
+    <string name="name">name</string>
+    <string name="author">author</string>
+    <string name="desc">Description</string>
+    <string name="landed">Landed</string>
+    <string name="state">State</string>
+</resources>
