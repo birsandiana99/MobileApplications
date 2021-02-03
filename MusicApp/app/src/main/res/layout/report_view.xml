@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="3dp"
+        card_view:cardElevation="2dp"
+        card_view:cardMaxElevation="2dp"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        card_view:cardCornerRadius="5dp"
+        card_view:contentPadding="5dp"
+        >
+    <!--All objects and details-->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+        <LinearLayout android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <!--Layout name-field3-->
+            <LinearLayout
+                    android:id="@+id/nameStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <!--name-->
+                <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="25dp"
+                        android:text="Name"
+                        android:textColor="@android:color/white"/>
+                <!--field3-->
+                <TextView
+                        android:id="@+id/status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="25dp"
+                        android:text="Status"
+                        android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <!--Layout field4-field5-->
+            <LinearLayout
+                    android:id="@+id/quantityPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <!--field4-->
+                <TextView
+                        android:id="@+id/quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="25dp"
+                        android:text="Quantity"
+                        android:textColor="@android:color/white"/>
+                <!--field5-->
+                <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="25dp"
+                        android:text="Price"
+                        android:textColor="@android:color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
